@@ -1,0 +1,4 @@
+
+
+export const NAMECHANGE = "NAME-CHANGE"
+export const EMAILCHANGE = "EMAIL-CHANGE"
