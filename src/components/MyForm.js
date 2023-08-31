@@ -17,9 +17,10 @@ const MyForm = ()=>{
             <label htmlFor="">Email:</label>
             <input type="email" name="" id="" onChange={(e)=>dispatch(emailChange(e.target.value))}/>
         </form>
-        <div>Current values in store:</div>
-        <p>Name - {data.name}</p>
-        <p>Email - {data.email}</p>
+        <div className="output">Current values in store:
+            <p>Name - {data.name}</p>
+            <p>Email - {data.email}</p>
+        </div>
         </>
     )
 }
