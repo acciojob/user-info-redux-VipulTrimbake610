@@ -10,11 +10,12 @@ const MyForm = ()=>{
     // console.log(data);
     return (
         <>
+        <h1>User Information</h1>
         <form action="">
             <label htmlFor="">Name:</label>
             <input type="text" onChange={(e)=>dispatch(nameChange(e.target.value))}/> <br />
             <label htmlFor="">Email:</label>
-            <input type="s" name="" id="" onChange={(e)=>dispatch(emailChange(e.target.value))}/>
+            <input type="email" name="" id="" onChange={(e)=>dispatch(emailChange(e.target.value))}/>
         </form>
         <div>Current values in store:</div>
         <p>Name - {data.name}</p>
